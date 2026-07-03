@@ -1,0 +1,77 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+
+    /* border shorthand */
+    border: 2px solid black;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    /* padding if all side have same value */
+    padding: 10px;
+
+     /* padding if all side have different value -> trbl */
+    padding: 10px 20px 10px 20px;
+    
+     /* padding if top-bottom and left-right side have same value value  */
+    padding: 10px 20px;
+    
+    /* margin */
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+    /* margin shorthand */
+    margin: 100px 40px 30px 50px;
+
+    /* all side have same value */
+    margin: 50px;
+
+    /* top-bottom and left-right having same value */
+    margin: 100px 50px;
+}
+
+
+.btn{
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 10px;
+}
+
+.login-btn{
+   background-color: rgb(3, 69, 70);
+   margin-right: 10px;
+}
+
+.register-btn{
+   background-color: rgb(246, 39, 52);
+   margin-right: 10px;
+}
+
+.click-btn{
+   background-color: rgb(6, 232, 213);
+}
+
+body{
+    padding: 10px;
+}
+
+.head{
+    margin-bottom: 16px;
+}
+
+.para{
+    margin-bottom: 10px;
+}

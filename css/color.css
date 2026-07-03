@@ -1,0 +1,28 @@
+h1{
+    color: blue;
+}
+
+/* hex color */
+#hex{
+    color: #043f02;
+}
+
+/* rgb color */
+#rgb{
+    color: rgb(3, 102, 115);
+}
+
+/* rgba color */
+#rgba{
+    color: rgba(3, 102, 115,0.8);
+}
+
+
+/* hsl color */
+#hsl{
+    color: hsl(109, 84%, 44%);
+}
+
+#hsl1{
+    color: hsl(109, 84%, 60%);
+}

@@ -1,0 +1,45 @@
+/* element selector */
+
+h1 {
+  color: red;
+  text-decoration: underline;
+}
+
+
+/* id selector */
+#head{
+   color: blue; 
+}
+
+#p3{
+    color: brown;
+}
+
+/* class selector */
+.para{
+    color: limegreen;
+    font-weight: 600;
+}
+
+/* group selector */
+button{
+    color: white;
+}
+
+h3{
+    color: blue; 
+}
+
+
+button,h3{
+    background-color: black;
+}
+
+
+div h5{
+    color: blue;
+}
+
+.wrapper h5{
+    color: red;
+}
