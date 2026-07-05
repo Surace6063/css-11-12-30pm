@@ -1,0 +1,38 @@
+.title{
+    background-color: brown;
+    color: white;
+
+    display: inline;
+    
+    width: 600px;
+    height: 60px;
+}
+
+.inline{
+    background-color: blueviolet;
+    color: white;
+    display: block;
+    
+    width: 600px;
+    height: 60px;
+}
+
+ul{
+    border-bottom: 1px solid rgb(209, 204, 204);
+    padding-block: 10px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 16px;
+    
+    background-color: black;
+    color: white;
+
+    width: 100px;
+    height: 40px;
+}
+
+.hide{
+    display: none;
+}
