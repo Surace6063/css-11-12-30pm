@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    border-bottom: 1px solid rgb(150, 147, 147);
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background-color: rgb(233, 10, 77);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.navlinks{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navlinks li{
+    list-style: none;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+   border: none;
+   padding: 10px 20px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.login-btn{
+    background-color: rgb(242, 8, 47);
+    color: white;
+}
+
+
+.main{
+    display: flex;
+}
+
+.sidebar{
+    background-color: blueviolet;
+    height: 500px;
+    color: white;
+    flex: 20%;
+}
+
+.content{
+    background-color: pink;
+    height: 500px;
+    color: white;
+
+    flex: 80%;
+}
+
+
+
+
+
+.container{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 18px;
+
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 50px;
+    background-color: rgb(237, 9, 63);
+    color: white;
+    border-radius: 18px;
+    padding: 5px;
+    flex: 1;
+}
+
+.box6{
+    flex: 2;
+}
+
+.box3{
+    flex: 3;
+}
