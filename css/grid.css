@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: repeat(3,1fr);
+}
+
+.box{
+    background-color: rgb(15, 14, 14);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.container2{
+    border: 2px solid black;
+    margin-top: 50px;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: repeat(3,1fr);
+}
+
+.box7{
+   grid-column-start: 1; 
+   grid-column-end: 3;
+}
