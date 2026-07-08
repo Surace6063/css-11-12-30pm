@@ -1,0 +1,33 @@
+button{
+    border: none;
+    background-color: rgb(2, 73, 75);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+     transition: all 500ms ease-in-out 300ms;
+}
+
+button:hover{
+    background-color: rgba(2, 73, 75, 0.8);
+}
+
+.title{
+    color: rgb(45, 44, 44);
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 18px;
+
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 300ms;
+    transition-timing-function: ease-in-out;
+
+    transition: all 500ms ease-in-out 300ms;
+}
+
+.title:hover{
+    background-color: rgb(242, 232, 232);
+}
