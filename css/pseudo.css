@@ -13,6 +13,11 @@ button:hover{
     background-color: rgba(2, 73, 75, 0.8);
 }
 
+button:active{
+    background-color: #dc0b73;
+}
+
+
 .title{
     color: rgb(45, 44, 44);
     cursor: pointer;
@@ -30,4 +35,78 @@ button:hover{
 
 .title:hover{
     background-color: rgb(242, 232, 232);
+}
+
+input{
+   padding: 10px;
+   border-radius: 18px; 
+   outline: none;
+}
+
+input:focus{
+    border: 2px solid rgb(220, 11, 115);
+}
+
+li:first-child{
+    color: rgb(220, 11, 115);
+}
+
+li:last-child{
+    color: rgb(138, 43, 226);
+}
+
+li:nth-child(3){
+    color: cadetblue;
+}
+
+li:nth-child(odd){
+    color: red;
+}
+
+li:nth-child(even){
+    color: rgb(12, 236, 60);
+}
+
+
+.check:checked{
+    accent-color: rgb(219, 6, 81);
+}
+
+
+
+/* style placeholder */
+input::placeholder{
+    color: #898386;
+    font-size: 12px;
+}
+
+
+/* add content before an element */
+/* .para::before{
+   content: '😒';
+} */
+
+.para::after{
+   content: '😒';
+}
+
+/* select first letter */
+.para::first-letter{
+    font-size: 24px;
+    font-weight: 700;
+    color: #dc0b73;
+}
+
+/* select list bullet */
+li::marker{
+    color: #dc0b73;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "✔️";
+    font-size: 10px;
 }
