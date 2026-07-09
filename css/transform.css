@@ -1,0 +1,42 @@
+.scale{
+    margin-left: 100px;
+    border: none;
+    background-color: rgb(4, 70, 70);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all 500ms ease-in-out 300ms;
+}
+
+.scale:hover{
+    transform: scale(1.2);
+}
+
+.scale:hover{
+    transform: rotate(180deg);
+}
+
+.scale:hover{
+    transform: translate(50px,50px);
+}
+
+.scale:hover{
+    transform: skew(20px,20px);
+}
+
+
+.box{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+
+      transition: all 500ms ease-in-out 300ms;
+}
+
+.box:hover{
+    transform: skew(20deg,20deg);
+}
