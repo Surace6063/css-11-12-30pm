@@ -1,0 +1,39 @@
+.para {
+  font-size: 2rem;
+}
+
+.container{
+    height: 700px;
+    background-color: rgb(123, 182, 5);
+}
+
+@media (max-width: 1100px) {
+  .para {
+    font-size: 1.8rem;
+    color: rgb(224, 5, 64);
+  }
+
+  .container{
+    height: 500px;
+    background-color: rgb(5, 140, 170);
+   }
+}
+
+@media (max-width: 780px) {
+  .para {
+    font-size: 1.5rem;
+    color: rgb(77, 239, 8);
+  }
+}
+
+
+@media (max-width: 540px) {
+  .para {
+    font-size: 1rem;
+    color: rgb(52, 4, 211);
+  }
+
+   .container{
+    height: 400px;
+   }
+}
